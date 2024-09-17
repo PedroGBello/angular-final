@@ -1,0 +1,31 @@
+.app-header {
+  padding: 1rem;
+}
+.app-main {
+  padding: 1rem;
+}
+.primary-nav {
+  margin: 1rem 0;
+  display: flex;
+  gap: 1rem;
+}
+.nav-link {
+  color: var(--clr-neutral-400);
+  background: var(--clr-neutral-100);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.6em 1em;
+  border-radius: 10rem;
+  transition: background 0.15s;
+
+  &:hover {
+    background: var(--clr-neutral-200);
+  }
+}
+.active-link {
+  background: var(--clr-primary-900);
+  color: var(--clr-neutral-100);
+  &:hover {
+    background: hsl(from var(--clr-primary-900) h s 35%);
+  }
+}
